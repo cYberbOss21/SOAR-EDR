@@ -20,10 +20,12 @@ Part 2: LimaCharlie Setup
 
 Note:  
    Screenshot of the Windows Server setup
+   
  ![image](https://github.com/user-attachments/assets/f525a3fc-afa3-43ae-af5b-8992fb4364d6)
 
 
 2. Setup LimaCharlie
+   
  ![image](https://github.com/user-attachments/assets/61c2754d-5516-439a-8659-e98d48daa82f)
 
 ---
@@ -35,11 +37,13 @@ Part 3: Telemetry Generation
    - Download and execute Lazagne.exe (a vulnerability demonstration tool).
 
 *Note*:  
-   - Screenshot of Lazagne running in PowerShell.
+   - Screenshot of Lazagne running in PowerShell
+
 	 ![image](https://github.com/user-attachments/assets/3727b9be-fcc0-4719-9a87-af478251be55)
 
-   - LimaCharlie should detect the download of Lazagne. Include a screenshot of the detection log.
-    ![image](https://github.com/user-attachments/assets/6424af0d-fc35-4955-b579-e330df97fda8)
+   - LimaCharlie should detect the download of Lazagne. Include a screenshot of the detection log
+
+![image](https://github.com/user-attachments/assets/6424af0d-fc35-4955-b579-e330df97fda8)
 	 
 
 2. Create Detection & Response (D&R) Rule
@@ -47,12 +51,14 @@ Part 3: Telemetry Generation
    - Locate the event in the LimaCharlie logs and add it to the rule.
 
 Note:  
-   - Screenshot of the rule creation and test output.
+   - Screenshot of the rule creation and test output
+
   ![image](https://github.com/user-attachments/assets/d4351971-0d40-4b0e-afc1-8d0a83b9bacb)
 
    ![image](https://github.com/user-attachments/assets/de643a8c-9217-41a9-9c8e-85a81ec44555)
 
-   - Screenshot of the detection result.
+   - Screenshot of the detection result
+   
      ![image](https://github.com/user-attachments/assets/40e53b9e-3daf-4a46-840a-1949811d0d8a)
 
 ---
@@ -65,10 +71,12 @@ Part 4: Slack & Tines Integration
 
 Note:  
    - Slack channel setup
-     ![image](https://github.com/user-attachments/assets/2f2077dd-95e0-4fee-ac20-9017fe92d978)
+
+      ![image](https://github.com/user-attachments/assets/2f2077dd-95e0-4fee-ac20-9017fe92d978)
 
  
 Tines
+
  ![image](https://github.com/user-attachments/assets/b0f1e3d5-4c89-4c09-b4bc-ed37fb5c7822)
 
 
