@@ -1,0 +1,43 @@
+# List of event types the rule should monitor
+events:
+  - NEW_PROCESS
+  - EXISTING_PROCESS
+
+# Main operator to combine rules
+op: and
+
+# List of conditions or "rules" to meet the detection criteria
+rules:
+  - op: is windows  # Checks if the operating system is Windows
+  - op: or          # Specifies that any of the following conditions can trigger an alert
+    rules:
+      - case sensitive: false
+        op: ends with
+        path: event/FILE_PATH
+        value: lazagne.exe  # Detects if the file path ends with "lazagne.exe"
+      - case sensitive: false
+        op: ends with
+        path: event/COMMAND_LINE
+        value: all          # Detects if the command line ends with "all"
+      - case sensitive: false
+        op: contains
+        path: event/COMMAND_LINE
+        value: lazagne      # Checks if "lazagne" appears anywhere in the command line
+      - case sensitive: false
+        op: is
+        path: event/HASH
+        value: 467e49f1f795c1b08245ae621c59cdf06df630fc1631dc0059da9a032858a486
+                            # Matches a specific hash value associated with Lazagne
+
+# Action to take upon detection
+- action: report
+  metadata:
+    author: MyDFIR            # Name of the author or team
+    description: detects Lazagne
+    falsepositives:
+      - to the moon           # Placeholder example for a known false positive
+    level: medium             # Severity level of the detection
+    tags:
+      - attack.credential_access
+  name: MyDFIR - HackTool - Lazagne (SOAR-EDR)
+                            # Rule name with a descriptive identifier
