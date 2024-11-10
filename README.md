@@ -1,5 +1,6 @@
 # SOAR-EDR
 Implements an automated cybersecurity response system using LimaCharlie, Tines, and Slack to detect, alert, and isolate threats on a Windows server
+
 SOAR-EDR Implementation Guide
 
 Part 1: Design
@@ -110,8 +111,8 @@ Note:
 
 
  
-Note: 
-Clicking the link in the Slack message or email takes you directly to the specific LimaCharlie event, providing detailed insights for further investigation.
+*Note: 
+Clicking the link in the Slack message or email takes you directly to the specific LimaCharlie event, providing detailed insights for further investigation.*
 ---
 
 Takeaways
