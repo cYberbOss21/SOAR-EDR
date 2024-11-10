@@ -10,6 +10,9 @@ Objectives:
 Notes:  
    Use draw.io to visualize the workflow.
 
+   ![SOAR-EDR-Playbook](https://github.com/user-attachments/assets/1d2d41b9-b99a-4038-b144-556e1a6d4fb9)
+
+
 ---
 
 Part 2: LimaCharlie Setup
