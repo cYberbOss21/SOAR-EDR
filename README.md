@@ -103,6 +103,9 @@ Note:
 ![image](https://github.com/user-attachments/assets/b0b3f0ed-e56b-41dd-a883-1f933272a0d2)
 ![image](https://github.com/user-attachments/assets/77f429cf-a6a2-4f25-ad08-7ec6feab94cf)
 
+[Watch the demo video](https://youtu.be/qPmlcFBHhtY)
+
+
  
 Note: 
 Clicking the link in the Slack message or email takes you directly to the specific LimaCharlie event, providing detailed insights for further investigation.
